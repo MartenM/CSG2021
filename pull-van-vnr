@@ -1,0 +1,7 @@
+#!/bin/bash
+# Dit script zorgt er voor dat de nieuwe updates van xxx worden opgehaald.
+# De start command is git, git is het programma dat gebruikt word om deze updates uit te voeren. Daarna volgent een subcommand met meer argumenten
+# De sub-command pull zegt dat wij ergens anders een update 'commit', weg willen halen.
+# Vervolgens zeggen we dat we deze van de upstream repository willen. Dit is de 'roepnaam' van de repository die we op willen halen.
+# Main betekend welke tak we willen.
+git pull upstream main
