@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: rgb(0, 179, 255);
+    color: white;
+
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-align: center;
+
+    padding: 1em;
+}
+
+#background {
+    height: 25em;
+    background-image: url(./firewatch.webp);
+    background-size: 100%;
+    background-position: center;
+}
+
+.about {
+    width: 100%;
+    text-align: left;
+    color: white;
+    background-color: #000030;
+
+    padding: 0;
+
+    overflow: auto;
+}
+
+.container {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about h1 {
+    text-align: center;
+}
