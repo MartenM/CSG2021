@@ -70,6 +70,13 @@ a {
     color:rgb(126, 111, 255);
 }
 
+footer img {
+    position: absolute;
+    height: 10em;
+    top: -10em;
+    left: 10%;
+}
+
 /* https://stackoverflow.com/questions/54702124/rainbow-text-animation-using-only-css */
 .rainbow_text_animated {
     background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
